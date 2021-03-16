@@ -34,6 +34,7 @@ type Config struct {
 type Service struct {
 	ID    string
 	Name  string
+    Network string
 	Port  int
 	IP    string
 	Tags  []string
